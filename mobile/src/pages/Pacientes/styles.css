@@ -1,0 +1,127 @@
+const styles = StyleSheet.create({
+  telaPrincipal: {
+   flex: 1,
+   backgroundColor: '#0091F2',
+   alignItems: 'center',
+   
+
+  },
+  telaTitulo: {
+    
+   backgroundColor: 'navy',
+   marginTop: 35,
+   marginBottom: 1,
+   marginRight:20,
+   padding: 40,
+   width:400,
+
+  },
+  cards: {
+   fontSize: 25,
+   marginLeft: 10.5,
+   width: 300,
+   height: 250,
+   marginBottom: 150,
+   marginTop: 60,
+   borderRadius: 25,
+   justifyContent:'space-between'
+  },
+
+  imagens: {
+   borderRadius: 25,
+  },
+
+  usuario: {
+   fontSize: 50,
+   color: 'white',
+   fontWeight:'',
+   width:300,
+   marginLeft: 45,
+  },
+  
+   cardsTexto: {
+   fontSize: 85,
+   marginLeft: 10,
+   fontWeight:'bold',
+
+  },
+
+   subTexto: {
+   fontSize: 15,
+   color: '#0080FF',
+   marginLeft: 10,
+  },
+
+   scrollview: {
+   width: 320,
+   height: 200,
+   contentContainer: {
+    paddingVertical: 100 }
+  },
+
+  
+  assistir: {
+   width: 200,
+   height: 50,
+   backgroundColor: '#81BEF7',
+   marginTop: 25,
+   marginBottom: 10,
+   marginLeft: 46,
+   alignItems: 'center',
+   borderRadius: 25,
+  },
+
+   evolucao: {
+   width: 115,
+   height: 50,
+   backgroundColor: 'orange',
+   marginTop: 25,
+   marginBottom: 10,
+   marginLeft: 46,
+   alignItems: 'center',
+   borderRadius: 25,
+   alignContent:'flex-end',
+  },
+
+   voltar: {
+   width: 115,
+   height: 50,
+   backgroundColor: '#81BEF7',
+   marginTop: 25,
+   marginRight: 30,
+   alignItems: 'center',
+   borderRadius: 25,
+   alignContent:'flex-start',
+  },
+
+  voltarTexto: {
+   fontSize: 17,
+   color:'white',
+   height: 50,
+   marginTop: 13,
+   alignItems: 'center',
+  },
+  evolucaoTexto: {
+   fontSize: 17,
+   color:'white',
+   height: 50,
+   marginTop: 13,
+   alignItems: 'center',
+  },
+
+  adicionarTexto: {
+   fontSize: 17,
+   color:'white',
+   height: 50,
+   marginTop: 13,
+   alignItems: 'center',
+
+   footer: {
+   fontSize: 65,
+   color: '#0080FF',
+   marginLeft: 10,
+  },
+  
+  },
+
+});
