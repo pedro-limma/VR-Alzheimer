@@ -1,9 +1,16 @@
-import React, {Component} from 'react';
+import React, { Component, Statusbar } from 'react';
 
-import Login from '../mobile/src/pages/Login';
+import Routes from './routes';
 
 export default class App extends Component {
   render() {
-    return <Login />;
+
+    return (
+      <>
+        <Statusbar />
+        <Routes />
+      </>
+    );
+
   }
 }

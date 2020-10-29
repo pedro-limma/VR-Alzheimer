@@ -44,7 +44,7 @@ export default class Login extends React.Component {
           />
 
           <TouchableOpacity style={styles.btnsubmit}>
-            <Text style={styles.textsubmit}> Entrar </Text>
+            <Text style={styles.textsubmit} onPress={() => { props.navigation.navigate("Menu") }}> Entrar </Text>
           </TouchableOpacity>
 
           <TouchableOpacity>

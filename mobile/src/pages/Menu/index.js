@@ -22,7 +22,7 @@ export default class Menu extends React.Component {
             <Text style={styles.textsubmit}> Novo Paciente </Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.btnsubmit}>
+          <TouchableOpacity style={styles.btnsubmit}  onPress={() => { props.navigation.navigate("Video") }}>
             <Text style={styles.textsubmit}> Lista de Pacientes </Text>
           </TouchableOpacity>
         </View>

@@ -28,12 +28,12 @@ import {
   href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
 />;
 import Constants from 'expo-constants';
-import AssetExample from './components/AssetExample';
+//import AssetExample from './components/AssetExample';
 
 const remote =
   'https://i.pinimg.com/originals/54/27/10/542710e5150ee4f7340bea644f6c75f0.jpg';
   
-export default class App extends React.Component {
+export default class Pacientes extends React.Component {
   state = {
     ischecked: false,
   };
