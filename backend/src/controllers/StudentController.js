@@ -1,13 +1,16 @@
 const connection = require('../database/connection');
-const { compare ,hash } = require('bcrypt');
+const { hash } = require('bcrypt');
+const crypto = require('crypto');
 
 module.exports = {
                   async create(request, response)
                   {
-                    const { id, login, password } = request.body;
-                    const hash_password = await hash(password, 8)
-                    console.log(hash_password) 
+                    const { login, password } = request.body;
+                    const id = crypto.randomBytes(4).toString('HEX');
+                    const hash_password = await hash(password, 8); 
+
                     await connection('students').insert({id, login, password: hash_password});
-                    return response.json({ id, password});
+                    
+                    return response.json({ id, password });
                   }
                 }
